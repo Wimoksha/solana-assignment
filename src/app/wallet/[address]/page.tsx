@@ -61,8 +61,8 @@ export default async function WalletPage({ params }: { params: { address: string
           </div>
 
           <p style={{ marginTop: 16, fontSize: 12, color: "#9fb3c8" }}>
-            Data from SolanaTracker wallet endpoints (includes SOL balance via totals and SOL token entry). :contentReference[oaicite:7]{index=7}
-          </p>
+  Prices/changes are fetched via SolanaTracker trending and price endpoints.
+</p>
         </>
       )}
     </main>
